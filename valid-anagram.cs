@@ -24,7 +24,7 @@ public class Solution {
             }
         }
         
-        //check if any non 0 elements exits
+        //check if any non 0 elements exists
         foreach(KeyValuePair<char, int> element in map1){
             if(element.Value != 0){
                 return false;
